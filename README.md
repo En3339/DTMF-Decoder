@@ -6,3 +6,4 @@ The decoder aims to decode the DTMF key press signal. When a key is pressed, it 
 
 The "FFT.PY" aims to plot a signal in both time domain and freq. domain
 
+The "touchtonedecoder.py" reads a signal in 
