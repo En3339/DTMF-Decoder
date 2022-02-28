@@ -8,12 +8,23 @@ The "fft.py" aims to plot a signal in both time domain and freq. domain.
 
 The "touchtonedecoder.py" reads a touchtone signal from "touchtones.dat". It detects each possiable pressed keys in the signal. However, the sensitivity of detecting 2 same digits remains to explore for against touch by mistake. The example of one digits detect is shown in the fig below. If the one signal cut have 2 frequency of 230 and 336Hz. According to the reference table, it should be "5"
 
+
+
 ![image](https://user-images.githubusercontent.com/56938146/155968261-4ce82711-67b1-4b96-8c58-a74e12de3b30.png)
 
+
+
 The DTMF reference table is shown here:
+
+
+
 ![image](https://user-images.githubusercontent.com/56938146/155968640-5c9ec760-696b-4bc9-a8e6-f375bf12c56b.png)
 
+
+
 Since our signal is 500 Hz, the table can be transformed by Nyquist theriom.
+
+
 ![image](https://user-images.githubusercontent.com/56938146/155968770-176d3c6e-dc8c-4597-9cb1-7af8dad4c01d.png)
 
 
