@@ -1,4 +1,4 @@
-# DTMF the python code can run in a python environment, such as 'python 3.7'.
+# DTMF the python code cruns in a python environment, such as 'python 3.7'.
 # Author : En Lu & Zhengyang Li.
 # All rights reserved.
 This is a Group project including decoding a DTMF signal into a sequence of digits.
